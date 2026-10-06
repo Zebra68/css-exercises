@@ -5,14 +5,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0px;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 900;
   padding-left: 16px;
   flex-grow: 0;
@@ -39,8 +38,10 @@ body {
 
 .sidebar {
   width: 300px;
+  flex-shrink: 0;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
 }
 
 ul {
@@ -53,6 +54,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 .card-holder {
@@ -60,7 +62,7 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: flex-start;
-  padding: 24px;
+  padding: 48px;
   gap: 24px;
 }
 
@@ -71,6 +73,5 @@ a {
   width: 250px;
   height: 250px;
   padding: 8px;
-  border: black 2px solid;
   flex 1 1 0
 }
